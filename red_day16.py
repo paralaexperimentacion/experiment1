@@ -9,8 +9,8 @@ while True:
   #assigning random numbers to variables for number and color
   num = random.randint(10,40)
   r = random.randint(1,255)
-  b = random.randint(1,255)
-  g = random.randint(1,255)
+  b = 0
+  g = 0
   t.pd()
   #assigns color of turtle
   t.color(r, b, g)
